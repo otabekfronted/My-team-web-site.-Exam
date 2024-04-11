@@ -1,0 +1,21 @@
+@import url(./global.css);
+:root {
+    --primary-midnight: #014e56;
+    --primary-light: #f67e7e;
+    --primary-white: #fff;
+    --secondary-rapture: #79c8c7;
+    --secondary-police: #2c6269;
+    --secondary-deep-jungle: #004047;
+    --secondary-sacramento-state: #012f34;
+    --secondary-dark: #002529;
+    --hero-title-size: 10rem;
+    --hero-title-familiy: "Livvic";
+    --hero-font-size: 6.4rem;
+    --hero-font-famliy: "Livvic";
+    --font-familiy: "Livvic";
+    --font-familiy: "Livvic";
+    --font-style: italic;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-medium: 500;
+}
