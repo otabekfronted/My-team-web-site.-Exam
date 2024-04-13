@@ -219,11 +219,11 @@
     font-size: 4.8rem;
     font-weight: var(--font-weight-bold);
     line-height: 1;
-    width: 32.7rem;
+    width: 93.2rem;
     text-align: center;
     margin: auto;
     margin-bottom: 5.6rem;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
 }
 .stories-container__title span {
     font-family: var(--font-familiy);
@@ -247,9 +247,9 @@
 }
 .card-stories__img {
     position: absolute;
-    right: 50%;
+    right: 55%;
     /* right: 35%; */
-    transform: translateX(50%);
+    transform: translateX(55%);
     /* z-index: 10; */
     margin-top: 0.2rem;
 }
@@ -263,7 +263,7 @@
     font-weight: var(--font-weight-semibold);
     line-height: 1.6;
     padding-top: 3.6rem;
-    padding-right: 3.5rem;
+    padding-right: 3rem;
 }
 .avatar {
     /* margin-top: 2.4rem; */
@@ -281,7 +281,7 @@
 .avatar__info {
     font-family: var(--font-familiy);
     color: var(--primary-white);
-    font-size: 13px;
+    font-size: 1.3rem;
     font-style: italic;
     font-weight: var(--font-weight-medium);
     line-height: 1.38;
@@ -292,7 +292,7 @@
     border-radius: 50%;
     width: 6.2rem;
     height: 6.2rem;
-    right: 35%;
+    right: 40%;
     transform: translateX(-45%);
     /* margin-left: 14.5rem; */
     margin-top: 3.2rem;
@@ -300,3 +300,121 @@
 }
 
 /* Section stories end */
+/* Section contact */
+.contact {
+    /* height: 20rem; */
+    background-color: var(--primary-light);
+    position: relative;
+    max-width: 144rem;
+}
+.contact__img {
+    position: absolute;
+    bottom: 0;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20rem;
+    /* padding: 76px 260px; */
+    width: 91.7rem;
+    /* gap: 15.5rem; */
+    padding: 0;
+}
+.container {
+}
+.contact__title {
+    /* width: 50.4rem; */
+    font-family: var(--font-familiy);
+    color: var(--secondary-sacramento-state);
+    font-size: 4.8rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 1;
+    /* text-align: left; */
+}
+.contact-btn {
+    /* width: 15.9rem; */
+    color: var(--secondary-sacramento-state);
+    border: 2px solid #012f34;
+    &:hover {
+        background-color: var(--secondary-sacramento-state);
+        color: var(--primary-white);
+    }
+}
+/* Section contact end */
+/* Section footer */
+/*  */
+
+.footer {
+    background-color: var(--secondary-dark);
+}
+.footer__container {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+    display: flex;
+    align-items: center;
+}
+.footer__nav {
+    margin-right: 12.5rem;
+}
+.footer__logo {
+    margin-bottom: 2.5rem;
+}
+
+.footer__navlist {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer__address {
+    opacity: 0.6;
+    margin-right: auto;
+    font-weight: var(--font-weight-semibold);
+}
+
+.footer__address-link {
+    color: var(--white-color);
+}
+
+.footer__social-list {
+    justify-content: flex-end;
+    margin-bottom: 5.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.footer__copyright-text {
+    opacity: 0.6;
+}
+
+.fa-brands {
+    color: var(--primary-white);
+    font-size: 2.4rem;
+    transition: all 0.3s ease;
+    &:hover {
+        color: var(--primary-light);
+    }
+}
+.footer__address {
+    font-family: var(--font-familiy);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.6;
+    color: var(--primary-white);
+}
+.body2 {
+}
+.footer__address-link {
+}
+.footer__copyright-text {
+    color: var(--primary-white);
+    opacity: 0.6;
+    font-family: var(--font-familiy);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.6;
+}
+.clr {
+    padding-top: 55rem;
+}
