@@ -1,0 +1,128 @@
+@import url(./normalize.css);
+@import url(./global.css);
+@import url(./style.css);
+@import url(./varible.css);
+
+.contactt-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.contactt {
+    background-color: var(--primary-midnight);
+}
+
+.contactt-form {
+    width: 542px;
+}
+
+.contacts__form {
+    width: 100%;
+    /* max-width: 515px; */
+}
+.input-text {
+    width: 100%;
+    display: block;
+    padding-bottom: 2rem;
+    border: none;
+    background-color: transparent;
+    padding-left: 1.4rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 3rem;
+    color: var(--primary-white);
+    padding-top: 5px;
+    &:focus {
+        outline: none;
+        border-bottom-color: #79c8c7;
+    }
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 1.8rem;
+    }
+}
+.input-text-area {
+    padding-bottom: 4.3rem;
+    padding-left: 1.4rem;
+    margin-bottom: 2.4rem;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: var(--primary-white);
+    resize: none;
+    &:focus {
+        outline: none;
+        border-bottom-color: #79c8c7;
+    }
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 1.5rem;
+    }
+}
+.input-text-area[placeholder] {
+    font-size: 1.5rem;
+}
+input[placeholder] {
+    font-size: 1.5rem;
+}
+.contact__btn {
+    color: var(--primary-midnight);
+    padding: 1rem 3.2rem;
+    font-size: 1.8rem;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    background-color: var(--primary-white);
+    font-weight: var(--font-weight-semibold);
+    &:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+}
+.d {
+    color: red;
+    background-color: saddlebrown;
+}
+.contactt-info {
+}
+.contactt-title {
+    font-family: var(--font-familiy);
+    color: var(--primary-white);
+    font-size: 6.4rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 1.6rem;
+}
+.contactt-description {
+    font-family: var(--font-familiy);
+    font-size: 3.2rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.5;
+    text-align: left;
+    color: var(--primary-light);
+}
+.teams__type {
+}
+.teams-type__info {
+    margin-bottom: 30px;
+}
+.teams-type__info-img {
+    width: 72px;
+    /* height: 72px; */
+}
+.teams-full-info {
+}
+.teams-type__info-description {
+}
+
+.contact__pattern-second-img {
+    position: absolute;
+    right: 0;
+    bottom: -9.6rem;
+}
+.contact__img {
+    position: absolute;
+    top: 24.5rem;
+
+    left: -10rem;
+}

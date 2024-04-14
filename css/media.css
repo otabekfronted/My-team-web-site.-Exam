@@ -25,9 +25,9 @@
         display: none;
     }
     .hero__pattern-second-img {
-        /* right: 20rem; */
-        left: 50%;
-        right: -50%;
+        /* right: 200rem; */
+        /* left: -50%; */
+        /* right: -50%; */
         transform: translateX(-50%);
     }
     .teams-container {
@@ -100,7 +100,7 @@
         /* padding: 64px 24px; */
         display: grid;
         align-items: center;
-        margin-right: 0;
+        /* margin-right: 0; */
         grid-template-columns: 510px 280px;
     }
     .container {
@@ -128,10 +128,62 @@
         justify-content: space-between;
     }
     .fa-brands {
-        margin-top: 4rem;
+        top: 342rem;
+        left: 5rem;
+    }
+    .footer__social-link {
+    }
+    .fa-facebook {
+        margin-left: rem;
+    }
+    .fa-pinterest {
+        margin-left: 10rem;
+    }
+    .fa-twitter {
+        margin-left: 5rem;
     }
     .footer__copyright-text {
         margin-right: -16rem;
+    }
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 8rem;
+    }
+    .about__pattern-second-img {
+        position: absolute;
+        right: 0;
+    }
+    .about-short-info__info {
+        width: 47px;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .director-container {
+    }
+    .directors-card {
+    }
+    .directors-informations {
+        width: 26rem;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 3rem;
+    }
+
+    .contactt {
+        width: 76.8rem;
+        padding-bottom: 1rem;
+    }
+    .contactt-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactt-info {
+        width: 51.5rem;
     }
 }
 /* MOBILE */
@@ -253,6 +305,8 @@
     .stories-container {
         display: flex;
         flex-direction: column;
+        width: 37.5rem;
+        padding-right: 16px;
     }
     .stories-container__title {
         font-size: 3.2rem;
@@ -277,13 +331,18 @@
     .card-stories__img {
         margin-top: 2.5rem;
     }
+    .contact {
+        width: 37.5rem;
+    }
     .contact-container {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         height: 30.2rem;
-        width: 37.5rem;
+        /* width: 37.5rem; */
+        left: 50%;
+        transform: translateX(50%);
     }
     .contact__title {
         text-align: center;
@@ -317,7 +376,7 @@
     }
     .footer__logo {
         left: 50%;
-        transform: translateX(25%);
+        transform: translateX(20%);
     }
 
     .footer__logo-img {
@@ -336,10 +395,45 @@
         font-size: 1.5rem;
     }
     .footer__social {
-        top: 28rem;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .footer__copyright-text {
+        margin-right: 3rem;
+    }
+    .contactt {
+        width: 37.5rem;
+        padding-bottom: 1rem;
+    }
+    .contactt-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactt-info {
+        width: 51.5rem;
+        width: 80%;
+    }
+    .contact__img {
+        display: none;
+    }
+    .contact__pattern-second-img {
+        display: none;
+    }
+    .teams__type-info {
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-nav {
+        display: block;
+        background-color: var(--secondary-deep-jungle);
+        width: 255px;
+        height: 100vh;
+        left: 37rem;
+        top: 0;
+        position: absolute;
     }
 }
