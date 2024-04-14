@@ -427,6 +427,18 @@
         align-items: center;
         justify-content: center;
     }
+    .contacts__form {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: center;
+        margin-left: 10rem;
+    }
+    .input-text {
+        /* width: 375px; */
+    }
     .mobile-nav {
         display: block;
         background-color: var(--secondary-deep-jungle);
